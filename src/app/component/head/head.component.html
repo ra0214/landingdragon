@@ -1,0 +1,29 @@
+<div class="header">
+  <div class="logo-container">
+    <a href="/"><img src="./assets/logo.png" alt="Dragon Ball Z Logo" class="logo"></a>
+  </div>
+  <div class="title-container" (mouseover)="showTooltip()" (mouseout)="hideTooltip()">
+    <h2 class="title">SAGAS DE DRAGON BALL</h2>
+    <div class="tooltip" *ngIf="tooltipVisible">
+      <h1>Lista de las sagas de Dragon Ball</h1>
+      <p>Dragon Ball es el siguiente:
+      <ul>
+        <li>Dragon Ball: (1986-1989)</li>
+        <li>Dragon Ball Z: (1989-1996)</li>
+        <li>Dragon Ball GT: (No canon)</li>
+        <li>Dragon Ball Super: (2015-2018)</li>
+      </ul>
+      <p>Además hay otras series y películas de Dragon Ball, como: </p>
+      <ul>
+        <li>Dragon Ball Z: La Batalla de los Dioses (ova)</li>
+        <li>Dragon Ball Z: La Resurección de F (ova)</li>
+        <li>Dragon Ball Super: Broly (ova)</li>
+        <li>Dragon Ball Super: Superhero (película, estreno 2022)</li>
+      </ul>
+      <p>La saga de Majin Boo es la más larga de la franquicia de Dargon Ball, tanto en el manga como en el anime</p>
+    </div>
+  </div>
+  <div class="dragonballs-container">
+    <img src="./assets/esferas.png" alt="Dragon Balls" class="dragonballs">
+  </div>
+</div>
